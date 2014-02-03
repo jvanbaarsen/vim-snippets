@@ -1,4 +1,8 @@
+IMPORTANT: This is a fork of the [Original repo](https://github.com/honza/vim-snippets). It has been stripped down
+to only have the items I need for my daily work. You better use the original, since it contains way more snippets :smile:
+
 IMPORTANT: comment on: [What about merging with Ultisnip using its engine](https://github.com/garbas/vim-snipmate/issues/114)
+
 
 Snipmate & UltiSnip Snippets
 ============================
