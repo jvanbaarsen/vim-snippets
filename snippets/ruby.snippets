@@ -1045,24 +1045,24 @@ snippet isei
 snippet isel
 	it { should ensure_length_of :${0} }
 snippet isva
-	it { should validate_acceptance_of :${0} }
+	it { should validate_acceptance_of(:${0}) }
 snippet isvc
-	it { should validate_confirmation_of :${0} }
+	it { should validate_confirmation_of(:${0}) }
 snippet isvn
-	it { should validate_numericality_of :${0} }
+	it { should validate_numericality_of(:${0}) }
 snippet isvp
-	it { should validate_presence_of :${0} }
+	it { should validate_presence_of(:${0}) }
 snippet isvu
-	it { should validate_uniqueness_of :${0} }
+	it { should validate_uniqueness_of(:${0}) }
 #ShouldaMatchers#ActiveRecord
 snippet isana
 	it { should accept_nested_attributes_for :${0} }
 snippet isbt
-	it { should belong_to :${0} }
+	it { should belong_to(:${0}) }
 snippet isbtcc
 	it { should belong_to(:${1}).counter_cache ${0:true} }
 snippet ishbtm
-	it { should have_and_belong_to_many :${0} }
+	it { should have_and_belong_to_many(:${0}) }
 snippet isbv
 	it { should be_valid }
 snippet ishc
@@ -1070,7 +1070,7 @@ snippet ishc
 snippet ishi
 	it { should have_db_index :${0} }
 snippet ishm
-	it { should have_many :${0} }
+	it { should have_many(:${0}) }
 snippet ishmt
 	it { should have_many(:${1}).through :${0} }
 snippet isho
